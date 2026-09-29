@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS roleplay_commands (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    command VARCHAR(255) NOT NULL,
+    player_id INT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
